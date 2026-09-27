@@ -12,7 +12,7 @@ public class Motocicleta extends Vehiculo {
 
     @Override
   public double calcularTarifa(int horasPermanencia) {
-        double tarifaPorHora = (cilindraje >  250) ? 1.00 :0.75;
+        double tarifaPorHora = (cilindraje >  250) ? 1.00  :0.75;
         return horasPermanencia * tarifaPorHora;
     }
 
